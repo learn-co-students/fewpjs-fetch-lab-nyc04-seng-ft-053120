@@ -1,5 +1,7 @@
 function fetchBooks() {
-
+ return fetch('https://anapioficeandfire.com/api/books') //this fetch() does inside method with api in it
+  .then(resp => resp.json()) 
+  .then(json => renderBooks(json)); //calls the second method
 }
 
 function renderBooks(books) {
