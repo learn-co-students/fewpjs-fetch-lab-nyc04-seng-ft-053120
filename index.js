@@ -17,4 +17,6 @@ document.addEventListener('DOMContentLoaded', function() {
   fetchBooks()
 })
 
-
+//const ptag = document.createElement('p')
+  //      ptag.innerHTML = (`pages ${book.numberOfPages}`)
+    //    main.append(ptag)
